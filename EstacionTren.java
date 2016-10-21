@@ -11,10 +11,18 @@ public class EstacionTren
         dineroTotal = 0;
        }
   
-        public void mostrarDineroTotal()
+    public void mostrarDineroTotal()
     {
         dineroTotal = maquina1.darTotal();
         dineroTotal = dineroTotal + maquina2.darTotal();
                 System.out.println(dineroTotal);
+    }
+    
+    public void ImprimirTicket()
+    {
+        maquina1.insertarDinero(500);
+        maquina2.insertarDinero(400);
+        maquina1.imprimirTicket();
+        maquina2.imprimirTicket();
     }
 }
