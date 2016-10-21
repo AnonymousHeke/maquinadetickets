@@ -75,4 +75,9 @@ public class MaquinaDeTickets
         // Clear the balance.
         balance = 0;
     }
+    
+    public int darTotal()
+    {
+        return total;
+    }
 }
