@@ -85,4 +85,9 @@ public class MaquinaDeTickets
     {
         System.out.println("Por favor, insertarla cantidad correcta de dinero.");
     }
+    
+    public void mostrarPrecio()
+    {
+        System.out.println("El precio de un ticket es " + precio + " euros");
+    }
 }
