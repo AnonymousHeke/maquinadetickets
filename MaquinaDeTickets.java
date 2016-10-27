@@ -97,4 +97,9 @@ public class MaquinaDeTickets
     {
         System.out.println("El precio de un ticket es " + precio + " cents.");
     }
+    
+    public void vaciarMaquina()
+    {
+        total = 0;
+    }
 }
