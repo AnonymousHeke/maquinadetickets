@@ -33,6 +33,8 @@ public class MaquinaDeTickets
     public MaquinaDeTickets(int coste)
     {
         precio = coste;
+        balance = 0;
+        total = 0;
     }
     
     /**
