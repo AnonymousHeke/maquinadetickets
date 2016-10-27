@@ -80,4 +80,9 @@ public class MaquinaDeTickets
     {
         return total;
     }
+    
+    public void aviso()
+    {
+        System.out.println("Por favor, insertarla cantidad correcta de dinero.");
+    }
 }

@@ -20,8 +20,8 @@ public class EstacionTren
     
     public void ImprimirTicket()
     {
-        maquina1.insertarDinero(500);
-        maquina2.insertarDinero(400);
+        maquina1.insertarDinero(300);
+        maquina2.insertarDinero(200);
         maquina1.imprimirTicket();
         maquina2.imprimirTicket();
     }
