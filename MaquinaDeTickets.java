@@ -23,9 +23,9 @@ public class MaquinaDeTickets
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeTickets(int coste)
+    public MaquinaDeTickets()
     {
-        precio = coste;
+        precio = 800;
         balance = 0;
         total = 0;
     }
@@ -88,6 +88,6 @@ public class MaquinaDeTickets
     
     public void mostrarPrecio()
     {
-        System.out.println("El precio de un ticket es " + precio + " euros");
+        System.out.println("El precio de un ticket es " + precio + " cents.");
     }
 }
